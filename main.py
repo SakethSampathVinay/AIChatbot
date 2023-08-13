@@ -7,7 +7,7 @@ from typing import List
 # Load your OpenAI API key
 models.OpenAI.api_key = "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"
 # or from environment variable:
-# models.OpenAI.api_key = os.getenv("OPENAI_API_KEY")
+# models.OpenAI.api_key =  os.getenv("OPENAI_API_KEY")
 
 # Prompt for GPT-3.5 Turbo
 SYSTEM_PROMPT = """You are chatting with an AI. There are no specific prefixes for responses, so you can ask or talk about anything you like. The AI will respond in a natural, conversational manner. Feel free to start the conversation with any question or topic, and let's have a pleasant chat!
